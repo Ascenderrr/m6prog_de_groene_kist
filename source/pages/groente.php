@@ -10,7 +10,7 @@ $products = $result->fetch_all(MYSQLI_ASSOC);
         <div class="product-grid">
             <?php foreach ($products as $product): ?>
                 <div class="product-item">
-                    <h3><?php echo htmlspecialchars($product['naam']); ?></h3>
+                    <h3><?php echo ($product['naam']); ?></h3>
                     <p>Prijs: €<?php echo number_format($product['prijs'], 2, ',', '.'); ?></p>
                 </div>
             <?php endforeach; ?>
