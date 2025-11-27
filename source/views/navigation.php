@@ -4,10 +4,10 @@
     </a>
     <nav>
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="#over-ons">Over Ons</a></li>
-            <li><a href="#locatie">Locatie</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/groente">Groente</a></li>
+            <li><a href="/fruit">Fruit</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </nav>
 </header>
