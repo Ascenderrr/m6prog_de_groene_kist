@@ -1,9 +1,16 @@
 <?php
-require_once __DIR__ . '/../database.php';
+require_once '/../database.php';
 
 class login 
 {
-    public function __construct() 
+    public int $idlogin;
+    public string $username;
+    public string $password;
+
+    public function __construct(int $idlogin, string $username, string $password) 
     {
+        $this->idlogin = $idlogin;
+        $this->username = $username;
+        $this->password = $password;
     }
 }
