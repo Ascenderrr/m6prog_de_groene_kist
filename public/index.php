@@ -22,7 +22,7 @@ if (empty($page) || $page === 'index.php') {
         <?php include '../source/views/navigation.php'; ?>
         
         <?php 
-        $allowed_pages = ['home', 'groente', 'fruit', 'contact'];
+        $allowed_pages = ['home', 'groente', 'fruit', 'contact', 'aanbiedingen'];
         $pages_dir = '../source/pages/';
 
         if ($page === 'home') {
@@ -36,4 +36,4 @@ if (empty($page) || $page === 'index.php') {
         <?php include '../source/views/footer.php'; ?>
     </div>
 </body>
-</html>x
+</html>

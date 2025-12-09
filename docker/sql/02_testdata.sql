@@ -1,5 +1,3 @@
-
-
 -- -----------------------------------------------------
 -- Test Data Insertion
 -- -----------------------------------------------------
@@ -23,6 +21,13 @@ INSERT INTO `product` (`idproduct`, `naam`, `prijs`) VALUES
 (3, 'Frisse Appels', 2.50),
 (4, 'Wortelen', 1.80),
 (5, 'Ambachtelijke Kaas', 8.95);
+
+-- Insert product types
+INSERT INTO `product_type` (`groente`, `fruit`, `product_idproduct`) VALUES
+('Biologische Tomaten', '', 1),
+('Komkommers', '', 2),
+('', 'Frisse Appels', 3),
+('Wortelen', '', 4);
 
 -- Insert aanbiedingen (15% korting op appels)
 INSERT INTO `aanbiedingen` (`idaanbiedingen`, `korting`, `product_idproduct`) VALUES
